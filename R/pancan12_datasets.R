@@ -3,9 +3,12 @@
 #'
 #' Package provides cnv datasets from Cancer Browser for 12 cohorts types 
 #'
+#' @return Data frames PANCAN12 data.
+#' 
 #' @format NULL
 #' @source \url{https://genome-cancer.ucsc.edu/proj/site/hgHeatmap/}
-#' 
+#' @import RTCGA
+#' @import knitr
 #' @name pancan12
 #' @rdname pancan12
 #' @aliases cnv.cb, mutation.cb, expression.cb, clinical.cb

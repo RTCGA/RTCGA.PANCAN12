@@ -4,14 +4,14 @@ author: "Przemyslaw Biecek"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Using RTCGA.PANCAN12 to compare time to death}
+  %\VignetteIndexEntry{Using RTCGA.PANCAN12 to compare time to deatha}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
 
 ```{r, echo=FALSE}
 library(knitr)
-opts_chunk$set(comment="", message=FALSE, warning = FALSE, tidy.opts=list(keep.blank.line=TRUE, width.cutoff=150),options(width=150), cache=TRUE, fig.width=10, fig.height=10)
+opts_chunk$set(comment="", message=FALSE, warning = FALSE, tidy.opts=list(keep.blank.line=TRUE, width.cutoff=150),options(width=150), cache=TRUE, fig.width=10, fig.height=10, eval = FALSE)
 ```
 
 # RTCGA.cnv package
@@ -19,9 +19,13 @@ opts_chunk$set(comment="", message=FALSE, warning = FALSE, tidy.opts=list(keep.b
 You need RTCGA.PANCAN12 package to use PANCAN12 data from Cancer Genome Browser.
 
 ```{r}
+## try http:// if https:// URLs are not supported
+source("https://bioconductor.org/biocLite.R")
+biocLite("RTCGA.PANCAN12")
+# or try devel version
 require(devtools)
 if (!require(RTCGA.PANCAN12)) {
-    install_github("mi2-warsaw/RTCGA.data", subdir = "RTCGA.PANCAN12")
+    install_github("RTCGA/RTCGA.PANCAN12")
     require(RTCGA.PANCAN12)
 }
 ```
