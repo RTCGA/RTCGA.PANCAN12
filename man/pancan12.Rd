@@ -30,8 +30,10 @@ expression.cb2
 Data frames PANCAN12 data.
 }
 \description{
-Package provides cnv datasets from Cancer Browser for 12
-cohorts types
+Package provides clinical, expression, cnv and mutation data
+from Genome Cancer Browser for 12 cohorts types. Converting
+those datasets from \code{data.frames} to Bioconductor
+classes is explained here \link{convertTCGA}.
 }
 \keyword{datasets}
 

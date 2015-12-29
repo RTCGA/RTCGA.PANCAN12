@@ -5,7 +5,8 @@ Version: 0.99.1
 Date: 2015-11-10
 Author: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
 Maintainer: Marcin Kosinski <m.p.kosinski@gmail.com>
-Description: Package provides clinical, expression, cnv and mutation data from Genome Cancer Browser.
+Description: Package provides clinical, expression, cnv and mutation data from
+    Genome Cancer Browser.
 License: GPL-2
 LazyData: TRUE
 Roxygen: list(wrap = TRUE)
@@ -19,4 +20,4 @@ Suggests:
 biocViews: Annotation Data
 VignetteBuilder: knitr
 NeedsCompilation: no
-RoxygenNote: 5.0.0
+RoxygenNote: 5.0.1

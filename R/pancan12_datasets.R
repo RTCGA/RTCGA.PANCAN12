@@ -1,7 +1,8 @@
 #' 
 #' PANCAN12 datasets from Cancer Browser project
 #'
-#' Package provides cnv datasets from Cancer Browser for 12 cohorts types 
+#' Package provides clinical, expression, cnv and mutation data from Genome Cancer Browser for 12 cohorts types. 
+#' Converting those datasets from \code{data.frames} to Bioconductor classes is explained here \link{convertTCGA}.
 #'
 #' @return Data frames PANCAN12 data.
 #' 

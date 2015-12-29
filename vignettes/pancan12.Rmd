@@ -4,7 +4,7 @@ author: "Przemyslaw Biecek"
 date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
-  %\VignetteIndexEntry{Using RTCGA.PANCAN12 to compare time to deatha}
+  %\VignetteIndexEntry{Using RTCGA.PANCAN12 to compare time to death}
   %\VignetteEngine{knitr::rmarkdown}
   %\VignetteEncoding{UTF-8}
 ---
@@ -14,7 +14,7 @@ library(knitr)
 opts_chunk$set(comment="", message=FALSE, warning = FALSE, tidy.opts=list(keep.blank.line=TRUE, width.cutoff=150),options(width=150), cache=TRUE, fig.width=10, fig.height=10, eval = FALSE)
 ```
 
-# RTCGA.cnv package
+# RTCGA.PANCAN12 package
 
 You need RTCGA.PANCAN12 package to use PANCAN12 data from Cancer Genome Browser.
 
@@ -28,6 +28,8 @@ if (!require(RTCGA.PANCAN12)) {
     install_github("RTCGA/RTCGA.PANCAN12")
     require(RTCGA.PANCAN12)
 }
+# or if you have RTCGA package then simpler code is
+RTCGA::installTCGA('RTCGA.PANCAN12')
 ```
 
 # Expression
