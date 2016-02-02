@@ -1,5 +1,5 @@
-# RTCGA.PANCAN12
-
+[![Build Status](http://bioconductor.org/shields/build/devel/data-experiment/RTCGA.PANCAN12.svg)](http://bioconductor.org/checkResults/devel/data-experiment-LATEST/RTCGA.PANCAN12/)
+# [RTCGA.PANCAN12](http://bioconductor.org/packages/RTCGA.PANCAN12/)
 A part of [RTCGA](https://github.com/RTCGA) family.
 
 To install development version from GitHub use
